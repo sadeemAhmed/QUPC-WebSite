@@ -1,0 +1,29 @@
+:root { 
+  --black: #000000;
+  --primary-: #054c73;
+  --white: #ffffff;
+ 
+  --font-size-l: 36px;
+  --font-size-m: 32px;
+  --font-size-xl: 40px;
+  --font-size-xxl: 60px;
+  --font-size-xxxl: 65px;
+ 
+  --font-family-cairo: "Cairo", Helvetica;
+  --font-family-tajawal: "Tajawal", Helvetica;
+}
+.tajawal-bold-regal-blue-36px {
+  color: var(--primary-);
+  font-family: var(--font-family-tajawal);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.tajawal-normal-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-tajawal);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
